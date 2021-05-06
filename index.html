@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook chat</title>
+  <link rel="stylesheet" href="/styles/normalize.css">
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+
+  <header class="chat-header container">
+    <div class="chat-header__wrapper">
+      <div class="user-name">
+        <span class="user-status"></span>
+        <h1 class="user-name">Mark zuckerberg</h1>
+      </div>
+      <a class="exit-button__link" href="#">
+        <img src="/img/icon/close.svg" alt="exit" class="exit-button">
+      </a>
+    </div>
+  </header>
+  
+  <main class="main-chat container">
+    <div class="lines">
+      <hr class="line">
+      <p class="line-text">Today</p>
+      <hr class="line">
+    </div>
+    
+    <div class="message-from">
+      <div class="messages">
+        <time class="message-from__time">10:53</time>
+        <p class="message">Hi, Mark! I made a new design for Messenger App.</p>
+      </div>
+    </div>
+
+    <div class="messages-from mark">
+      <div class="messages">
+        <time class="message-from__time">10:57</time>
+        <p class="message from-mark">Yo!Send it to my assistant and we'll review it during the year.</p>
+      </div>
+    </div>
+
+    <div class="message-from">
+      <div class="messages">
+        <time class="message-from__time">11:03</time>
+        <p class="message">But mark...</p>
+      </div>
+    </div>
+
+    <div class="messages-from mark">
+      <div class="messages">
+        <p class="message blocked">You were blocked by the user.</p>
+      </div>
+    </div>
+  </main>
+
+  <section class="enter-message container">
+    <p class="placeholder">Enter your message</p>
+    <button class="send-button">Send</button>
+  </section>
+
+</body>
+</html>
